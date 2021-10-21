@@ -1,0 +1,87 @@
+@font-face{
+    font-family:"tesla";
+    src:url(../fontes/tesla/TESLA.ttf)
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: rgb(211, 211, 211);
+}
+main{
+    padding:0px 100px;  
+}
+#titulo-principal{
+    text-align: center;
+    font-family:"tesla", Arial, Helvetica, sans-serif;
+    margin-top:4vh;
+    color:red
+}
+#first-container{
+    display:flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    align-items: center;
+}
+#info-container{
+    width: 55%;
+    font-size:1.2em;
+}
+#sede-container{
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    font-size:1.2em;
+}
+#sede-txt{
+    width:50%;
+}
+#sede-image{
+    width: 300px;
+}
+#dividor{
+    height: 2px;
+    background-color: black;
+}
+#modelos-titulo{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px 0px 25px 0px;
+}
+.description-container{
+    display:flex;
+    justify-content: space-between;
+}
+.models-name{
+    display:block;
+}
+.models-text{
+    width: 60%;
+    font-size:1.2em;
+}
+.model-img{
+    margin-top:-35px;
+    width: 200px;
+}
+.model-img:hover{
+    transform: scale(1.5,1.5);
+}
+.divisor-models{
+    margin-top:15px;
+    margin-bottom:25px;
+}
+#faturação-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom:40px;
+}
+#finanças-titulos{
+    text-align: center;
+    margin-bottom:20px;
+}
+#finanças-img:hover{
+    transform:scale(1.1,1.1)
+}

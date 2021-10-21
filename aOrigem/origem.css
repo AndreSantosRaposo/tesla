@@ -1,0 +1,88 @@
+@font-face{
+    font-family:"tesla";
+    src:url(../fontes/tesla/TESLA.ttf)
+}
+*{
+    margin:auto;
+    padding:0px;
+}
+#title{
+    text-align:center;
+    font-family: "tesla";
+    font-size:2.7em;
+    padding-top:20px;
+    color:red
+}
+#principal{
+    background-color: rgb(68, 68, 68);
+}
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+}
+.text{
+    width:30%;
+    padding:5px 10px;
+    border: 2px solid white;
+    border-radius: 3px;
+    color:white
+}
+#horizontal1{
+    margin-top:20px;
+    background-color: rgb(43, 43, 43);
+    padding:30px;
+}
+#horizontal2{
+    padding:30px;
+    margin-top:0px;
+    background-color: rgb(85, 85, 85);
+}
+#img2{
+    width: 400px;
+}
+#horizontal3{
+    padding:30px;
+    margin-top:0px;
+    background-color: rgb(43, 43, 43);
+}
+#img3{
+    width:450px;
+}
+#text3{
+    font-size:1.2em;
+}
+#horizontal4{
+    padding:30px;
+    margin-top:0px;
+    background-color: rgb(85, 85, 85);
+}
+#text4{
+    width: 400px;
+    font-size:1.2em;
+}
+#horizontal5{
+    padding:30px;
+    margin-top:0px;
+    background-color: rgb(43, 43, 43);
+}
+#img5{
+    width: 400px;
+}
+#text5{
+    font-size:1.2em;
+}
+#horizontal6{
+    padding:30px;
+    margin-top:0px;
+    background-color: rgb(85, 85, 85);
+}
+#text6{
+    font-size:1.3em;
+}
+#img6{
+    width: 400px;
+}
+.img:hover{
+    transform: scale(1.1,1.1);
+}

@@ -1,0 +1,57 @@
+@font-face{
+    font-family:"tesla";
+    src:url(../fontes/tesla/TESLA.ttf)
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:rgb(211, 211, 211);
+    font-size:1.1em;
+}
+main{
+    width: 90%;
+    margin: auto;
+}
+#titulo-principal{
+    text-align: center;
+    font-family:"tesla",Arial, Helvetica, sans-serif;
+    margin-top:30px;
+    color:red;
+    font-size:2.5em;
+}
+#pontos-container{
+    display: grid;
+    margin:35px 0px;
+    grid-template-columns: 1.5fr 1fr;
+}
+.pontos-titulo{
+    margin-bottom:10px;
+}
+.ponto-positivo{
+    width:70%;
+}
+#pontos-especiais-container{
+    text-align: center;
+    margin:50px 0px 30px 0px;
+}
+#pontos-especiais-titulo{
+    margin-bottom:5px;
+}
+#pontos-especiais-lista{
+    list-style: none;
+}
+#formulario-container{
+    margin:40px 0px;
+}
+#questionario-titulo{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#separador{
+    margin: 15px 0px;
+    height: 2px;
+    background-color: black;
+}
+

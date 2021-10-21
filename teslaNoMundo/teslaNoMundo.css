@@ -1,0 +1,90 @@
+@font-face{
+    font-family:"tesla";
+    src:url(../fontes/tesla/TESLA.ttf)
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: rgb(211, 211, 211);
+}
+main{
+    width: 95%;
+    margin:auto;
+}
+#titulo-principal{
+    color:red;
+    text-align: center;
+    font-size:2.5em;
+    font-family:"tesla",Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+#fabricas-container{
+    margin-top:40px;
+}
+#fabricas-titulo{
+    text-align:center;
+}
+#fabricas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.fabrica{
+    border: 1px solid black;
+    padding: 5px;
+}
+.fabrica-nome{
+    text-align: center;
+}
+.fabrica-img{
+    width: 95%;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+#parte2-container{
+    margin-top:75px;
+}
+#titulo-mapas{
+    text-align: center;
+    margin-bottom:10px;
+}
+#mapas-container{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+}
+.mapas{
+    border:1px solid black;
+    padding: 0px 10px;
+}
+#forms{
+    margin: 45px 0px 30px 0px;
+}
+#formulario-title{
+    text-align: center;
+    font-size: 2em;
+}
+#link-formulario{
+    margin-top:5px;
+    display: block;
+    text-align:center;
+    font-size:1.2em;
+    color:black;
+    text-decoration: none;
+}
+#link-formulario:hover{
+    color:rgb(83, 83, 83);
+    text-decoration:underline black;
+}
+.mapas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0px;
+}
+.mapa-img{
+    height: 250px;
+    width: 400px;
+}

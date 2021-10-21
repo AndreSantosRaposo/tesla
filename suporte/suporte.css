@@ -1,0 +1,39 @@
+@font-face{
+    font-family:"tesla";
+    src:url(../fontes/tesla/TESLA.ttf)
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color:rgb(211, 211, 211);
+}
+main{
+    height: 79vh;
+}
+#titulo-principal{
+    text-align: center;
+    font-family:"tesla",Arial, Helvetica, sans-serif;
+    margin-top:20px;
+    color:red;
+    font-size:3.5em;
+}
+#links-titulo{
+    margin: 20vh 0px 0px 0px;
+    text-align: center;
+    font-size:2.5em;
+}
+#links{
+    margin: 10px auto;
+    text-align: center;
+}
+.links{
+    color: rgb(9, 9, 146);
+    text-decoration:none;
+    margin: 0px 20px;
+    font-size: 1.4em;
+}
+.links:hover{
+    text-decoration:underline rgb(9, 9, 146);
+}

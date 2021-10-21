@@ -1,0 +1,13 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#footer{
+    height: 8vh;
+    background-color: #333333;
+    padding: 10px;
+}
+.creditos{
+    text-align: center;
+    color:rgb(230, 228, 228);
+}
